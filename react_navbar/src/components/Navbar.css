@@ -1,0 +1,47 @@
+
+.Navbar {
+    display: flex;
+    width: 1364px;
+    height: 60px;
+    /* border: 2px solid grey; */
+    justify-content: space-around;
+    gap: 15px;
+    background-color: #212121;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.Logo {
+    display: flex;
+    /* border: 1px solid red; */
+    width: 10%;
+    justify-content: center;
+    font-weight: bold;
+    color: white;
+}
+
+.ThreeButton {
+    display: flex;
+    /* border: 1px solid green; */
+    width: 50%;
+    justify-content: space-around;
+    color: white;
+    cursor: pointer;
+
+}
+.Btn {
+    display: flex;
+    /* border: 1px solid red; */
+    width: 10%;
+    justify-content: center;
+
+}
+.Contact {
+    background-color: #29b6f6;
+    border-radius: 15px;
+    border: transparent;
+    color: white;
+    height: 40px;
+    width: 80%;
+    margin: auto;
+    cursor: pointer;
+    font-size: 16px;
+}
