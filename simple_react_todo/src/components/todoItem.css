@@ -1,0 +1,22 @@
+
+.Items {
+   display: flex;
+   justify-content: space-around;
+   margin: auto;
+   align-items: center;
+   border: 1px solid rgb(175, 173, 173);
+   width: 20%;
+   height: 25px;
+   border-radius: 10px;
+   margin-top: 5px;
+}
+
+.striked {
+    text-decoration: line-through;
+}
+.Input1 {
+    justify-content: center;
+    margin: auto;
+    display: flex;
+    gap: 5px;
+}
