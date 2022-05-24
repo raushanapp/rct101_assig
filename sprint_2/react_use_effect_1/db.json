@@ -1,0 +1,44 @@
+{
+  "todos": [
+    {
+      "id": 1,
+      "text": "Leran React",
+      "status": false
+    },
+    {
+      "id": 2,
+      "text": "Leran Redux",
+      "status": false
+    },
+    {
+      "text": "Missing Evaluation",
+      "status": false,
+      "id": 3
+    },
+    {
+      "text": "Discipiline",
+      "status": false,
+      "id": 4
+    },
+    {
+      "text": "Flow State",
+      "status": false,
+      "id": 5
+    },
+    {
+      "text": "Learn Node.js",
+      "status": false,
+      "id": 6
+    },
+    {
+      "text": "Learn Dsa",
+      "status": false,
+      "id": 7
+    },
+    {
+      "text": "Learn Mongoose",
+      "status": false,
+      "id": 8
+    }
+  ]
+}
