@@ -1,7 +1,7 @@
 
 import React, { useState } from "react";
 
-export const TodoInput = ({sendData}) =>{
+export const TodoInput = ({sendData,updateData}) =>{
 
     const [text,setText] =useState("")
 

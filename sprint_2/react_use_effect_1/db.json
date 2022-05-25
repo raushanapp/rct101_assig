@@ -40,5 +40,8 @@
       "status": false,
       "id": 8
     }
-  ]
+  ],
+  "completedTodos" :[{
+
+  }]
 }
