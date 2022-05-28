@@ -13,7 +13,8 @@ export const Todos = () =>{
 
     const updateData = (to)=>{
         console.log(to)
-        let newData = todos.filter((todo)=>todo.id!==to)
+        let newArr =
+        // let newData = todos.filter((todo)=>todo.id!==to)
         setTodos(newData)
         // setUpdate(newData)
         // console.log("upadte",upadte,newData)
