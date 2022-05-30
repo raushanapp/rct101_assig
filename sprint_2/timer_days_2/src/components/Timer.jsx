@@ -4,11 +4,13 @@ function secondsToHms(d) {
     var h = Math.floor(d / 3600);
     var m = Math.floor(d % 3600 / 60);
     var s = Math.floor(d % 3600 % 60);
+    var ms = (s*1000)
 
     var hDisplay = h > 0 ? h + (h == 1 ? " hour, " : " hours, ") : "";
     var mDisplay = m > 0 ? m + (m == 1 ? " minute, " : " minutes, ") : "";
     var sDisplay = s > 0 ? s + (s == 1 ? " second" : " seconds") : "";
-    return hDisplay + mDisplay + sDisplay; 
+    var msDisplay =ms>0 ? ms +(ms===1000 ? "milisecond" :"miliseconds") :"";
+    return hDisplay + mDisplay + sDisplay +msDisplay; 
 }
 export const Timer =() =>{
     const [timer,setTimer]=useState(0)
@@ -16,7 +18,7 @@ export const Timer =() =>{
        let id = setInterval(()=>{
 
             setTimer((prev)=>prev +1)
-       },1000)
+       },100)
 
        return ()=>{
            clearInterval(id)
