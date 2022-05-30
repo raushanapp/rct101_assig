@@ -1,12 +1,12 @@
 import React from 'react'
 import './App.css'
-import { Timer } from './components/Timer'
+import { TimerDays2 } from './components/TimerDays_2'
 
 function App() {
 
   return (
     <div className="App">
-       <Timer/>
+       <TimerDays2/>
     </div>
   )
 }

@@ -12,7 +12,7 @@ function secondsToHms(d) {
     var msDisplay =ms>0 ? ms +(ms===1000 ? "milisecond" :"miliseconds") :"";
     return hDisplay + mDisplay + sDisplay +msDisplay; 
 }
-export const Timer =() =>{
+export const TimerDays2 =() =>{
     const [timer,setTimer]=useState(0)
     useEffect(()=>{
        let id = setInterval(()=>{
