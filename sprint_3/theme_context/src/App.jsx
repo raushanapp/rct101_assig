@@ -1,12 +1,13 @@
-import { useState } from 'react'
+import { useContext, useState } from 'react'
 import './App.css'
 import { ThemeToggle } from './Components/ThemeContext'
+import { ThemeContext } from './Context/ThemeContext'
 
 function App() {
-  const [count, setCount] = useState(0)
+  const {isTheme} = useContext(ThemeContext)
 
   return (
-    <div className="App">
+    <div className={isTheme ? "light" :"dark"}>
        <ThemeToggle/>
     </div>
   )
