@@ -48,7 +48,7 @@ function App() {
     <div className="App">
       <Navbar/>
       <Routes>
-        <Route path='/' element={data.map((e)=>(<FormTable key={e.id} data={e}/>))}/>
+        <Route path='/' element={<FormTable key={data.id}  data={data}/>}/>
         <Route path='/FormsDetails' element={<FormsDetails sendDataServer={sendDataServer}/>}/>
       </Routes>
       
