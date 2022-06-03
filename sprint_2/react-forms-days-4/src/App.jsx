@@ -1,13 +1,17 @@
 import './App.css';
-import React from 'react';
+import React, { useEffect, useState } from 'react';
+import {Routes,Route} from "react-router-dom"
 import axios from "axios"
 import{v4 as uuid} from "uuid"
 import {FormsDetails} from "./Components/Emplyees"
+import { FormTable } from './Components/FormTable';
+import { Navbar } from './Components/Navbar';
 function App() {
-
+  const [data,setData] =useState([]);
+    useEffect(()=>{
+      axios.get(`http://localhost:3333/userDetails`).then((r)=>setData(r.data))
+    },[])
   const sendDataServer=(data)=>{
-    console.log(data.marital)
-      // console.log("data:",data)
     //   fetch("http://localhost:3333/userDetails",{
     //     method:"POST",
     //     headers:{
@@ -42,7 +46,13 @@ function App() {
   }
   return (
     <div className="App">
-      <FormsDetails sendDataServer={sendDataServer}/>
+      <Navbar/>
+      <Routes>
+        <Route path='/' element={data.map((e)=>(<FormTable key={e.id} data={e}/>))}/>
+        <Route path='/FormsDetails' element={<FormsDetails sendDataServer={sendDataServer}/>}/>
+      </Routes>
+      
+      
     </div>
   );
 }
