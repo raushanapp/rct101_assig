@@ -1,0 +1,54 @@
+{
+  "userDetails": [
+    {
+      "id": "089bbd8c-9853-4d5e-9bfb-e4bfa56bb2c2",
+      "name": "Sushupal Kumar",
+      "age": "21",
+      "address": "vill +post -Mahanand pur",
+      "salary": "50000",
+      "department": "Me",
+      "imageUrl": "https://imgs.search.brave.com/-oSCzjsBD59wn-L1Id32YOvx3O63X96DiS144-muI28/rs:fit:334:225:1/g:ce/aHR0cHM6Ly90c2U0/Lm1tLmJpbmcubmV0/L3RoP2lkPU9JUC5L/YXdEUzBvRG5RdExx/SWw2NzRGcVJnSGFL/ZiZwaWQ9QXBp",
+      "marital": false
+    },
+    {
+      "id": "b330f94d-cc94-4c5c-b662-104c5ee4e8d2",
+      "name": "Deepak Kumar",
+      "age": "29",
+      "address": "vill +post -Mahanand pur",
+      "salary": "25000",
+      "department": "Me",
+      "imageUrl": "https://imgs.search.brave.com/uBLT0-scU3StFPKbtR4CDUOd-jx3GL1sUz9ha_SGrkw/rs:fit:471:225:1/g:ce/aHR0cHM6Ly90c2Uz/Lm1tLmJpbmcubmV0/L3RoP2lkPU9JUC41/UDh4ZWhBWTNTNXZL/X0pzRjFLVUVRSGFI/ZCZwaWQ9QXBp",
+      "marital": true
+    },
+    {
+      "id": "5bc988b5-1c6f-485d-be50-8ff2c69de293",
+      "name": "Aman Kuamr",
+      "age": "26",
+      "address": "Patna Bihar",
+      "salary": "60000",
+      "department": "it",
+      "imageUrl": "https://imgs.search.brave.com/hI2FARCx5ezhzHXbXSIElV_sB4S6NPhoEcG-X3oCbas/rs:fit:905:225:1/g:ce/aHR0cHM6Ly90c2Uy/Lm1tLmJpbmcubmV0/L3RoP2lkPU9JUC5F/MFF5NG9JamZmUWlk/S0VqR0w1MzFBSGFE/NCZwaWQ9QXBp",
+      "marital": true
+    },
+    {
+      "id": "1d38f779-b7ec-4cc1-bac1-dd891a30e60e",
+      "name": "Shubham Upm",
+      "age": "26",
+      "address": "Nagapur",
+      "salary": "60000",
+      "department": "it",
+      "imageUrl": "https://imgs.search.brave.com/hI2FARCx5ezhzHXbXSIElV_sB4S6NPhoEcG-X3oCbas/rs:fit:905:225:1/g:ce/aHR0cHM6Ly90c2Uy/Lm1tLmJpbmcubmV0/L3RoP2lkPU9JUC5F/MFF5NG9JamZmUWlk/S0VqR0w1MzFBSGFE/NCZwaWQ9QXBp",
+      "marital": true
+    },
+    {
+      "id": "9827a97c-4753-49fc-85ea-a3a43b0d3b9f",
+      "name": "Tinku Kumar",
+      "age": "32",
+      "address": "Angul",
+      "salary": "70000",
+      "department": "Me",
+      "imageUrl": "https://imgs.search.brave.com/fS_5wWTeYElyaLsSDlnuZkRYkmIPVpAi4wnXhrb4CQA/rs:fit:1059:225:1/g:ce/aHR0cHM6Ly90c2Uy/Lm1tLmJpbmcubmV0/L3RoP2lkPU9JUC5p/VUxYamtyUUZueXFt/NlZaU0VkZi1BSGFE/VSZwaWQ9QXBp",
+      "marital": true
+    }
+  ]
+}
