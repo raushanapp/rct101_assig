@@ -5,12 +5,14 @@ export const FormsDetails = ({sendDataServer}) =>{
     const [isForm,setIsForm] = useState({});
 
     const handleChangeForms = (e) =>{
+      // console.log(e.target.value)
         let {type,name,value,checked} =e.target
-        console.log("C:",checked)
+        // console.log("C:",checked)
         if(type==="checkbox") {
             setIsForm({
                 ...isForm,
-                [name]:checked
+                [name]:checked,
+                [name]:value
             })
         }
         else {

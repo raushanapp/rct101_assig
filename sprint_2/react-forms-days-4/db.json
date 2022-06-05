@@ -8,7 +8,7 @@
       "salary": "50000",
       "department": "Me",
       "imageUrl": "https://imgs.search.brave.com/-oSCzjsBD59wn-L1Id32YOvx3O63X96DiS144-muI28/rs:fit:334:225:1/g:ce/aHR0cHM6Ly90c2U0/Lm1tLmJpbmcubmV0/L3RoP2lkPU9JUC5L/YXdEUzBvRG5RdExx/SWw2NzRGcVJnSGFL/ZiZwaWQ9QXBp",
-      "marital": false
+      "marital": "unmarried"
     },
     {
       "id": "b330f94d-cc94-4c5c-b662-104c5ee4e8d2",
@@ -18,7 +18,7 @@
       "salary": "25000",
       "department": "Me",
       "imageUrl": "https://imgs.search.brave.com/uBLT0-scU3StFPKbtR4CDUOd-jx3GL1sUz9ha_SGrkw/rs:fit:471:225:1/g:ce/aHR0cHM6Ly90c2Uz/Lm1tLmJpbmcubmV0/L3RoP2lkPU9JUC41/UDh4ZWhBWTNTNXZL/X0pzRjFLVUVRSGFI/ZCZwaWQ9QXBp",
-      "marital": true
+      "marital": "married"
     },
     {
       "id": "5bc988b5-1c6f-485d-be50-8ff2c69de293",
@@ -28,7 +28,7 @@
       "salary": "60000",
       "department": "it",
       "imageUrl": "https://imgs.search.brave.com/hI2FARCx5ezhzHXbXSIElV_sB4S6NPhoEcG-X3oCbas/rs:fit:905:225:1/g:ce/aHR0cHM6Ly90c2Uy/Lm1tLmJpbmcubmV0/L3RoP2lkPU9JUC5F/MFF5NG9JamZmUWlk/S0VqR0w1MzFBSGFE/NCZwaWQ9QXBp",
-      "marital": true
+      "marital": "unmarried"
     },
     {
       "id": "1d38f779-b7ec-4cc1-bac1-dd891a30e60e",
@@ -38,7 +38,7 @@
       "salary": "60000",
       "department": "it",
       "imageUrl": "https://imgs.search.brave.com/hI2FARCx5ezhzHXbXSIElV_sB4S6NPhoEcG-X3oCbas/rs:fit:905:225:1/g:ce/aHR0cHM6Ly90c2Uy/Lm1tLmJpbmcubmV0/L3RoP2lkPU9JUC5F/MFF5NG9JamZmUWlk/S0VqR0w1MzFBSGFE/NCZwaWQ9QXBp",
-      "marital": true
+      "marital": "married"
     },
     {
       "id": "9827a97c-4753-49fc-85ea-a3a43b0d3b9f",
@@ -48,7 +48,37 @@
       "salary": "70000",
       "department": "Me",
       "imageUrl": "https://imgs.search.brave.com/fS_5wWTeYElyaLsSDlnuZkRYkmIPVpAi4wnXhrb4CQA/rs:fit:1059:225:1/g:ce/aHR0cHM6Ly90c2Uy/Lm1tLmJpbmcubmV0/L3RoP2lkPU9JUC5p/VUxYamtyUUZueXFt/NlZaU0VkZi1BSGFE/VSZwaWQ9QXBp",
-      "marital": true
+      "marital": "married"
+    },
+    {
+      "id": "d83d886f-efb6-469a-8711-a33d84381772",
+      "name": "Papu Kuamr",
+      "age": "34",
+      "address": "Arra",
+      "salary": "23444",
+      "department": "Me",
+      "imageUrl": "https://imgs.search.brave.com/uLkF5WwPsHH662PCly4Kv9UmTnCpRThvxGPYDg9tBls/rs:fit:620:225:1/g:ce/aHR0cHM6Ly90c2U0/Lm1tLmJpbmcubmV0/L3RoP2lkPU9JUC53/ZlhSNkQzZkFrRnpj/YTFLVUhFcWtRSGFG/cSZwaWQ9QXBp",
+      "marital": "unmarried"
+    },
+    {
+      "id": "417040d5-f59e-419f-8b0c-6a1716b3763b",
+      "name": "Alok Kumar",
+      "age": "23",
+      "address": "kuhila",
+      "salary": "24555",
+      "department": "Ee",
+      "imageUrl": "https://imgs.search.brave.com/DAUR1KZyKUySeuP8YFklg6ZQ_6qFpVVHO-tFOURGF6M/rs:fit:351:225:1/g:ce/aHR0cHM6Ly90c2Uy/Lm1tLmJpbmcubmV0/L3RoP2lkPU9JUC5K/RGJJRGNrX0hkUnp3/anR5VVpNT3ZBSGFL/QSZwaWQ9QXBp",
+      "marital": "unmarried"
+    },
+    {
+      "id": "db9ba797-0b72-4a04-8a22-0c45cb356207",
+      "name": "Rumpankar Kumar",
+      "age": "26",
+      "address": "Patna Bihar",
+      "salary": "23455",
+      "department": "Ee",
+      "imageUrl": "https://imgs.search.brave.com/D7AvaUBuDF7RlQ2OgqU-Zxlq4QCmZQBhqnlkqII4b64/rs:fit:615:225:1/g:ce/aHR0cHM6Ly90c2Uz/Lm1tLmJpbmcubmV0/L3RoP2lkPU9JUC5q/b01ZR2RGZDNvOXBf/VXRiUjZRXzdnSGFG/dCZwaWQ9QXBp",
+      "marital": "unmarried"
     }
   ]
 }

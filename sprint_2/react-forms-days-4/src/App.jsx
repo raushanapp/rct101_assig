@@ -42,13 +42,72 @@ function App() {
       imageUrl:data.imageUrl,
       marital:data.marital
 
-    }).then((r)=>console.log(r))
+    }).then((r)=>setData(r.data))
+  }
+  const remove =(id)=>{
+    let removeData = data.filter((data)=>data.id!==id)
+    setData(removeData)
+
+  };
+  const sortBySalary=(n)=>{
+     console.log("get:",n.target.value)
+    //  console.log("all:",data.salary)
+     let type =n.target.value
+     switch(type) {
+       case "low" :{
+         data.sort((a,b)=>a.salary-b.salary)
+         setData([...data])
+         break;
+       }
+       case "high" :{
+           data.sort((a,b)=>b.salary-a.salary)
+         setData([...data])
+        break;
+       }
+       default :{
+         setData(data)
+         break;
+       }
+     }
+     const fil = n.target.value
+     console.log(fil)
+     switch(fil){
+       case "it" :{
+        let fill = data.filter((d)=>(d.department==="it"))
+         console.log("?:",fill)
+         setData([...fill])
+          break;
+       }
+       case "Me" :{
+        let fill = data.filter((d)=>(d.department==="Me"))
+         console.log("?:",fill)
+         setData([...fill])
+          break;
+       }
+       case "Ee" :{
+        let fill = data.filter((d)=>(d.department==="Ee"))
+         console.log("?:",fill)
+         setData([...fill])
+          break;
+       }
+       case "" :{
+        let fill = data.filter((d)=>(d.department===""))
+         console.log("?:",fill)
+         setData([...fill])
+          break;
+       }
+       default:{
+         setData(data)
+         break;
+       }
+     }
+    //  setData(data)
   }
   return (
     <div className="App">
       <Navbar/>
       <Routes>
-        <Route path='/' element={<FormTable key={data.id}  data={data}/>}/>
+        <Route path='/' element={<FormTable key={data.id}  data={data} remove={remove} sortBySalary={sortBySalary}/>}/>
         <Route path='/FormsDetails' element={<FormsDetails sendDataServer={sendDataServer}/>}/>
       </Routes>
       
