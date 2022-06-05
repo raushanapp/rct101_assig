@@ -73,19 +73,19 @@ function App() {
      console.log(fil)
      switch(fil){
        case "it" :{
-        let fill = data.filter((d)=>(d.department==="it"))
+        let fill = data.filter((d)=>(d.department==="it")).sort((a,b)=>a.salary-b.salary)
          console.log("?:",fill)
          setData([...fill])
           break;
        }
        case "Me" :{
-        let fill = data.filter((d)=>(d.department==="Me"))
+        let fill = data.filter((d)=>(d.department==="Me")).sort((a,b)=>a.salary-b.salary)
          console.log("?:",fill)
          setData([...fill])
           break;
        }
        case "Ee" :{
-        let fill = data.filter((d)=>(d.department==="Ee"))
+        let fill = data.filter((d)=>(d.department==="Ee")).sort((a,b)=>a.salary-b.salary)
          console.log("?:",fill)
          setData([...fill])
           break;
