@@ -46,7 +46,7 @@ function App() {
   }
   const remove =(id)=>{
     let removeData = data.filter((data)=>data.id!==id)
-    setData(removeData)
+    setData([...removeData])
 
   };
   const sortBySalary=(n)=>{
@@ -56,16 +56,16 @@ function App() {
      switch(type) {
        case "low" :{
          data.sort((a,b)=>a.salary-b.salary)
-         setData([...data])
+         setData([...data,data])
          break;
        }
        case "high" :{
            data.sort((a,b)=>b.salary-a.salary)
-         setData([...data])
+         setData([...data,data])
         break;
        }
        default :{
-         setData(data)
+         setData([...data])
          break;
        }
      }
@@ -87,17 +87,17 @@ function App() {
        case "Ee" :{
         let fill = data.filter((d)=>(d.department==="Ee")).sort((a,b)=>a.salary-b.salary)
          console.log("?:",fill)
-         setData([...fill])
+         setData([...fill,fill])
           break;
        }
        case "" :{
         let fill = data.filter((d)=>(d.department===""))
          console.log("?:",fill)
-         setData([...fill])
+         setData([...fill,fill])
           break;
        }
        default:{
-         setData(data)
+         setData([...data])
          break;
        }
      }

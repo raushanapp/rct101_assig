@@ -12,7 +12,7 @@ export const FormTable = ({data,remove,sortBySalary}) =>{
             <option value='low'>Low to High</option>
             <option value='high'>High to Low</option>
         </Select>
-        <Select placeholder='Filter by Department' size='md'   onChange={sortBySalary} >
+        <Select placeholder='Filter by Department' size='md' key={data.id}  onChange={sortBySalary} >
            {/* <option value=''>All Profile</option> */}
             <option value='it'>Computer Science</option>
             <option value='Me'>Mechanical</option>
