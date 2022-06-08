@@ -9,7 +9,7 @@ function App() {
   return (
     <div className="App">
          <h2>Count : {res}</h2>
-        <button onClick={() =>dispatch(add(count.x))}>Add</button>
+        <button onClick={() =>dispatch(add(1))}>Add</button>
         <button onClick={() =>dispatch(sub(1))}>Sub</button>
         <button onClick={() =>dispatch(multi(1))}>multi</button>
         <button onClick={() =>dispatch(div(1))}>div</button>
